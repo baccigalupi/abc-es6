@@ -1,0 +1,24 @@
+{
+  "name": "abc-es6-plus",
+  "version": "1.0.0",
+  "description": "ABC complexity metrics for ES6, TS and J/TSX!",
+  "main": "index.js",
+  "author": "Kane Baccigalupi",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "vitest": "^0.29.2"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "prettier:check": "prettier .",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "acorn-jsx": "^5.3.2",
+    "acorn-walk": "^8.2.0"
+  }
+}
